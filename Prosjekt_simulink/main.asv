@@ -2,7 +2,7 @@ time = 120;
 
 F_thruster = 111000;
 F_side_thruster = 440;
-k = 0.29;
+k = 0.02;
 g = 9.81;
 m = 760;
 
