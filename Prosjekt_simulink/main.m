@@ -1,4 +1,4 @@
-time = 120;
+time = 20;
 
 F_thruster = 111000;
 F_side_thruster = 440;
@@ -19,12 +19,12 @@ angle_ref = 0;
 
 Kp = 30000;
 Ki = 20000;
-Kd = 10000;
+Kd = 200000;
 
 out = sim("rocket.slx");
 x = out.x.Data;
 z = out.z.Data;
 
-plot(x,z)
-xlabel("X");
-ylabel("Z");
+%plot(x,z)
+%xlabel("X");
+%ylabel("Z");
